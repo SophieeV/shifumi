@@ -1,0 +1,94 @@
+if joueur choisit pierre et ordi choisit pierre 
+	alors : égalité 
+else joueur choisit pierre et ordi choisit papier
+	alors : ordi gagne 
+else joueur choisit pierre et ordi choisit ciseaux
+	alors : joueur gagne 
+else joueur choisit pierre et ordi choisit lézard
+	alors : joueur gagne 
+else joueur choisit pierre et ordi choisit Spock 
+	alors : ordi gagne 
+				
+				
+if joueur choisit papier et ordi choisit pierre 
+	alors : joueur gagne
+else joueur choisit papier et ordi choisit papier
+	alors : égalité 
+else joueur choisit papier et ordi choisit ciseaux
+	alors : ordi gagne 
+else joueur choisit papier et ordi choisit lézard
+	alors : ordi gagne 
+else joueur choisit papier et ordi choisit Spock 
+	alors : joueur gagne 
+				
+				
+if joueur choisit ciseaux et ordi choisit pierre 
+	alors : ordi gagne 
+else joueur choisit ciseaux et ordi choisit papier
+	alors : joueur gagne 
+else joueur choisit ciseaux et ordi choisit ciseaux
+	alors : égalité
+else joueur choisit ciseaux et ordi choisit lézard
+	alors : joueur gagne 
+else joueur choisit ciseaux et ordi choisit Spock 
+	alors : ordi gagne 
+				
+if joueur choisit lézard et ordi choisit pierre 
+	alors : ordi gagne 
+else joueur choisit lézard et ordi choisit papier
+	alors : joueur gagne 
+else joueur choisit lézard et ordi choisit ciseaux
+	alors : ordi gagne 
+else joueur choisit lézard et ordi choisit lézard
+	alors : égalité
+else joueur choisit lézard et ordi choisit Spock 
+	alors : ordi gagne 
+	
+if joueur choisit Spock et ordi choisit pierre 
+	alors : joueur gagne 
+else joueur choisit Spock et ordi choisit papier
+	alors : ordi gagne 
+else joueur choisit Spock et ordi choisit ciseaux
+	alors : joueur gagne 
+else joueur choisit Spock et ordi choisit lézard
+	alors: ordi gagne
+else joueur choisit Spock et ordi choisit Spock 
+	alors : égalité 
+								
+				
+pierre = pierre
+pierre > papier
+pierre > ciseaux 
+pierre > lézard
+pierre < Spock 
+
+
+papier> pierre
+papier = papier
+papier < ciseaux 
+papier < lézard
+papier > Spock
+
+ciseaux < pierre
+ciseaux > papier
+ciseaux = ciseaux 
+ciseaux > lézard 
+ciseaux < Spock
+
+lézard < pierre
+lézard > papier 
+lézard < ciseaux 
+lézard = lézard 
+lézard > Spock 
+
+Spock > pierre
+Spock < papier 
+Spock > ciseaux 
+Spock < lézard 
+Spock = Spock 
+
+
+				
+				
+								
+
